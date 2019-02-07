@@ -1,6 +1,6 @@
 FROM google/cloud-sdk
 
-RUN apt-get install -qqy zip
+RUN apt-get install -qqy zip make
 
 RUN export HELM_VERSION="2.12.3" \
       && mkdir -p /var/tmp/helm-setup \
