@@ -1,6 +1,6 @@
 FROM google/cloud-sdk:291.0.0-alpine
 
-LABEL VERSION="2.0.0" \
+LABEL VERSION="2.0.1" \
       MAINTAINER="berger91@gmail.com"
       
 RUN apk add zip make
