@@ -1,9 +1,9 @@
-FROM google/cloud-sdk:291.0.0
+FROM google/cloud-sdk:291.0.0-alpine
 
 LABEL VERSION="2.0.0" \
       MAINTAINER="berger91@gmail.com"
       
-RUN apt-get install -qqy zip make
+RUN apk add zip make
 
 RUN export HELM_VERSION="3.2.1" \
       && mkdir -p /var/tmp/helm-setup \

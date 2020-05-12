@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:291.0.0
+FROM google/cloud-sdk:291.0.0-slim
 
 LABEL VERSION="2.0.0" \
       MAINTAINER="berger91@gmail.com"
